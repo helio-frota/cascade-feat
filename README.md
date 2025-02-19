@@ -24,3 +24,16 @@ foo v0.0.1 (cascade-feat/foo)
 ├── clap feature "default" (*)
 └── clap feature "string"
 ```
+
+#### default-features = false
+
+```console
+cargo tree --depth 1 -e features
+bar v0.0.1 (/home/heliofrota/Desktop/cascade-feat/bar)
+├── clap feature "color"
+└── clap feature "wrap_help"
+
+foo v0.0.1 (/home/heliofrota/Desktop/cascade-feat/foo)
+├── clap feature "color" (*)
+└── clap feature "string"
+```
