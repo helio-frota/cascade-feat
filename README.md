@@ -37,3 +37,4 @@ foo v0.0.1 (cascade-feat/foo)
 ├── clap feature "color" (*)
 └── clap feature "string"
 ```
+

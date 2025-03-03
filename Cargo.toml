@@ -8,4 +8,4 @@ edition = "2021"
 
 [workspace.dependencies]
 # clap = { version = "4", features = ["color"] }
-clap = { version = "4", default-features = false, features = ["color"] }
+clap = { version = "4", default-features = false, features = ["std", "color"] }
