@@ -2,7 +2,7 @@ export default {
   extends: ['@commitlint/config-conventional'],
   plugins: ['commitlint-plugin-function-rules'],
   rules: {
-    'type-empty':[1, 'always'],
+    'type-empty':[0, 'always'],
     'subject-empty':[0, 'always']
   },
 }
