@@ -25,8 +25,8 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           restore-keys: ${{ runner.os }}-cargo-
       - uses: wagoid/commitlint-github-action@v6
-        with:
-          failOnErrors: false
+        # with:
+        #   failOnErrors: false
       - name: Format
         run: cargo fmt
       - name: Check
